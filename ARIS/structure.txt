@@ -1,0 +1,58 @@
+📂 ARIS/
+│
+├── 📂 backend/  # Servidor y lógica del negocio / Server and business logic
+│   ├── 📂 src/  # Código fuente del backend / Backend source code
+│   │   ├── 📂 controllers/  # Controladores para manejar las solicitudes / Controllers to handle requests
+│   │   ├── 📂 models/  # Definición de modelos de datos / Data model definitions
+│   │   ├── 📂 routes/  # Definición de rutas del servidor / Server route definitions
+│   │   ├── 📂 services/  # Lógica de negocio y servicios / Business logic and services
+│   │   ├── 📂 utils/  # Funciones auxiliares y utilidades / Helper functions and utilities
+│   │   ├── 📂 middlewares/  # Middleware para autenticación y validaciones / Middleware for authentication and validations
+│   │   ├── 📂 config/  # Configuración global de la aplicación / Global application configuration
+│   │   ├── 📂 database/  # Conexión y gestión de la base de datos / Database connection and management
+│   ├── 📂 tests/  # Pruebas automatizadas del backend / Automated backend tests
+│   ├── 📄 .env  # Variables de entorno / Environment variables
+│   ├── 📄 app.js  # Archivo principal del servidor / Main server file
+│   ├── 📄 package.json  # Dependencias del backend / Backend dependencies
+│
+├── 📂 frontend/  # Interfaz de usuario / User interface
+│   ├── 📂 public/  # Archivos estáticos públicos / Public static files
+│   ├── 📂 src/  # Código fuente del frontend / Frontend source code
+│   │   ├── 📂 components/  # Componentes reutilizables / Reusable components
+│   │   ├── 📂 pages/  # Páginas de la aplicación / Application pages
+│   │   ├── 📂 services/  # Servicios de API y manejo de datos / API services and data handling
+│   │   ├── 📂 styles/  # Estilos CSS y temas / CSS styles and themes
+│   │   ├── 📂 hooks/  # Hooks personalizados de React / Custom React hooks
+│   │   ├── 📂 context/  # Manejo de estado global / Global state management
+│   │   ├── 📂 assets/  # Imágenes y archivos estáticos / Images and static files
+│   │   ├── 📄 App.js  # Componente raíz del frontend / Root frontend component
+│   ├── 📂 tests/  # Pruebas automatizadas del frontend / Automated frontend tests
+│   ├── 📄 .env  # Variables de entorno / Environment variables
+│   ├── 📄 package.json  # Dependencias del frontend / Frontend dependencies
+│   ├── 📄 README.md  # Documentación del frontend / Frontend documentation
+│
+├── 📂 database/  # Archivos relacionados con la base de datos / Database-related files
+│   ├── 📂 migrations/  # Migraciones de la base de datos / Database migrations
+│   ├── 📂 seeds/  # Datos de prueba para la base de datos / Sample database data (seeds)
+│   ├── 📂 backups/  # Copias de seguridad de la base de datos / Database backups
+│   ├── 📂 queries/  # Consultas SQL personalizadas / Custom SQL queries
+│   ├── 📄 schema.sql  # Esquema de la base de datos / Database schema
+│   ├── 📄 README.md  # Documentación de la base de datos / Database documentation
+│
+├── 📂 docs/  # Documentación del proyecto / Project documentation
+│   ├── 📄 requirements.md  # Requisitos del proyecto / Project requirements
+│   ├── 📄 architecture.md  # Arquitectura del sistema / System architecture
+│   ├── 📄 api_documentation.md  # Documentación de la API / API documentation
+│   ├── 📄 user_manual.md  # Manual de usuario / User manual
+│   ├── 📄 changelog.md  # Registro de cambios del proyecto / Project changelog
+│   ├── 📄 installation.md  # Guía de instalación / Installation guide
+│
+├── 📂 scripts/  # Scripts de automatización / Automation scripts
+│   ├── 📄 deploy.sh  # Script para desplegar el proyecto / Deployment script
+│   ├── 📄 backup.sh  # Script para realizar copias de seguridad / Backup script
+│   ├── 📄 setup.sh  # Script para configuración inicial / Initial setup script
+│   ├── 📄 README.md  # Documentación de los scripts / Scripts documentation
+│
+├── 📄 docker-compose.yml  # Configuración de Docker / Docker configuration
+│
+└── 📄 estructura.txt  # Estructura del proyecto explicada / Project structure explanation
