@@ -27,7 +27,7 @@ ARIS allows citizens to submit complaints quickly and easily, track the progress
 - **Backend:** Node.js, Express.js, Sequelize (ORM)
 - **Database:** MySQL
 - **Authentication:** JWT (JSON Web Tokens)
-- **Deployment:** Docker, GitHub Actions (CI/CD)
+- **Deployment:** Serverless Deployment 
 - **Other Tools:** Git, GitHub, Postman (for API testing)
 
 ---
