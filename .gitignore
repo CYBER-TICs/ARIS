@@ -1,0 +1,48 @@
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependencias de Node.js
+/node_modules
+/.pnp
+.pnp.js
+
+# Archivos de compilación
+/build
+/dist
+/out
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Base de datos (MySQL)
+*.sql
+*.dump
+/config/local.yml
+/config/local.json
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+/data
+/volumes
